@@ -1,0 +1,116 @@
+<!DOCTYPE html>
+<html lang="es-ES">
+  <head>
+    <meta charset="utf-8">
+    <title>Ex</title>
+    <style>
+      * { 
+        margin:0;
+        padding:0;
+      }
+      a:link, a:visited, a:hover, a:active {
+        color:white;
+        font-size:16px;
+      }
+      body {
+        background-color:#333;
+        font-family:arial;
+      }
+      h1 {
+        color:black;
+        font-size:24px;
+      }
+  h2 {
+        color:black;
+        font-size:24px;
+      }
+      p {
+        font-size:16px;
+      }
+      ul {
+        list-style-type:none;
+      }
+      #cabecera {
+        color:whithe;
+        background-color:#009;
+        padding:10px;
+      }
+ #cabecera1 {
+        color:black;
+        background-color:darkblue;
+        padding:10px;
+      }
+
+      #contenedor {
+        margin:0 auto;
+        width:800px;
+      }
+      #contenido {
+        background-color:gray;
+        float:left;
+        height:500px;
+        padding:10px;
+        width:560px;
+      }
+      #menu {
+        background-color:#960;
+        float:left;
+        padding:20px;
+        width:180px;
+   height: 50%;
+      }
+ .contenedor > div {
+        flex:5;
+        display:flex;
+}
+      
+      #pie { 
+        background-color:#999;
+        clear:both;
+        color:#006;
+        padding:10px;
+        text-align:center;
+      }
+    </style>
+  </head>
+  <body>
+    <div id="contenedor">
+      <div id="cabecera">
+        <p align="center">Literatura</p>
+         <img src="Monarca-Mariposas-Alas.png" width="100" height="100">
+       </div>
+ <div id="cabecera1">
+    <p align="right"><a href="vinculo-1.html">Inicio</a></li>  <a href="vinculo-2.html">Conceptos</a></li>  <a href="vinculo-3.html">Otros</a></li></p>
+      </div>
+      <div id="menu">
+     
+  <div class="contenedor">
+  <div class="fila0">La Llorona</div>
+  <div class="fila1">El Charro Negro</div>
+    <div class="fila1">El Callejon del Beso</div>
+    <div class="fila1">Las Momias de Guanajuato</div>
+    <div class="fila1">El Nahual</div>
+      <ul>
+          <li><a href="Histrias de Terror.html">Historias de Terror</a></li>
+          <li><a href="Cuentos Infantiles.html">Cuentos Infantiles</a></li>
+          <li><a href="Chistes.html">Chistes</a></li>
+  <li><a href="Adivinanzas.html">Adivinanzas</a></li>
+  <li><a href="Poemas.html">Poemas</a></li>
+  
+</div>
+        </ul>
+      </div>
+ 
+ 
+      <div id="contenido">
+        <h1>Historias y Mitos</h1>
+   
+   <h2>La llorona</h2>
+     <p>Párrafo en el contenido de la página.</p>
+      </div>
+      <div id="pie">
+        <p>Copyright 2013 Maridian Con.</p>
+      </div>
+    </div>
+  </body>
+</html>
